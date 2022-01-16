@@ -1,0 +1,37 @@
+.container {
+  width: 35%;
+  position: absolute;
+  left: 37%;
+  top: 35%;
+  max-height: 400px;
+  height: 300px;
+}
+.container h1 {
+  text-align: center;
+  font-size: 24px;
+}
+.username,
+.passcode {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.submit {
+  text-align: center;
+}
+
+input,
+input:focus,
+input:hover,
+input:active,
+input:focus-visible {
+  padding: 7px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.container .submit input {
+  border: 1px;
+  border-radius: 5px;
+}
